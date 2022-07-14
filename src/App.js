@@ -20,7 +20,7 @@ const cardImages = [
             "perpetual fear - fear that urges her to act before it's too late. Holding her is like holding a grenade without the safety clip. The other members fear hear."},
     {src: "/img/greyPrince.jpg", matched: false, name: "Prince Gris (?)", detail: "The gray prince. The secret member of the cat council. " +
             "Almost supernatural ability to read his surroundings. As he listens to the streets, he cannot be bothered to listen to you. He waits for the event." +
-            "The event no cat has dared to suspect would ever come to pass."},
+            " The event no cat has dared to suspect would ever come to pass."},
     {src: "/img/notCat.jpg", matched: false, name: "Tookie and Tookie II", detail: "A slight tendency towards drama urges them to treat Manley Court as a stage." +
             " Technically not cats but, hey, nobody's perfect."},
 
