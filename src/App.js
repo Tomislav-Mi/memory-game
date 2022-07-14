@@ -16,11 +16,11 @@ const cardImages = [
             " douchebag in the cat council."},
     {src: "/img/stormie.jpg", matched: false, name: "Stormie", detail: "Tilly's grandchild, and the soon-to-be head of the cat council. Creative thinker, resourceful" +
             ", very proud and thus susceptible to intellectual flattery. The future is bright."},
-    {src: "/img/fluffy.jpg", matched: false, name: "Fluffy (?)", detail: "Though clothed in raw hairy power, she lives in " +
-            "perpetual fear - fear that urges her to act before it's too late. Her mind animates the inanimate, it gives her unique insides" +
-            " into the mind of the other council members."},
-    {src: "/img/greyPrince.jpg", matched: false, name: "Prince Gris (?)", detail: "The gray prince. A valuable member of the cat council. " +
-            "Almost supernatural ability to read his surroundings. As he listens to the streets, he cannot be bothered to listen to you. But who is speaking anyway?"},
+    {src: "/img/fluffy.jpg", matched: false, name: "Lola", detail: "Though clothed in raw hairy power, she lives in " +
+            "perpetual fear - fear that urges her to act before it's too late. Holding her is like holding a grenade without the safety clip. The other members fear hear."},
+    {src: "/img/greyPrince.jpg", matched: false, name: "Prince Gris (?)", detail: "The gray prince. The secret member of the cat council. " +
+            "Almost supernatural ability to read his surroundings. As he listens to the streets, he cannot be bothered to listen to you. He waits for the event." +
+            "The event no cat has dared to suspect would ever come to pass."},
     {src: "/img/notCat.jpg", matched: false, name: "Tookie and Tookie II", detail: "A slight tendency towards drama urges them to treat Manley Court as a stage." +
             " Technically not cats but, hey, nobody's perfect."},
 
