@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import {Route, Switch} from "react-router-dom";
+import {Route, Switch, Redirect} from "react-router-dom";
 
 import Header from "./components/Header";
 import Game from "./pages/Game";
@@ -17,10 +17,10 @@ const cardImages = [
     {src: "/img/stormie.jpg", matched: false, name: "Stormie", detail: "Tilly's grandchild, and the soon-to-be head of the cat council. Creative thinker, resourceful" +
             ", very proud and thus susceptible to intellectual flattery. The future is bright."},
     {src: "/img/fluffy.jpg", matched: false, name: "Lola", detail: "Though clothed in raw hairy power, she lives in " +
-            "perpetual fear - fear that urges her to act before it's too late. Holding her is like holding a grenade without the safety clip. The other members fear hear."},
+            "perpetual fear - fear that urges her to act before it's too late. Holding her is like holding a grenade without the safety clip. The other members fear and love her."},
     {src: "/img/greyPrince.jpg", matched: false, name: "Prince Gris (?)", detail: "The gray prince. The secret member of the cat council. " +
-            "Almost supernatural ability to read his surroundings. As he listens to the streets, he cannot be bothered to listen to you. He waits for the event." +
-            " The event no cat has dared to suspect would ever come to pass."},
+            "Almost supernatural ability to read his surroundings. As he listens to the streets, he cannot be bothered to listen to you. He waits for the 'event'." +
+            " What is the 'event'? The event no cat has dared to suspect would ever come to pass."},
     {src: "/img/notCat.jpg", matched: false, name: "Tookie and Tookie II", detail: "A slight tendency towards drama urges them to treat Manley Court as a stage." +
             " Technically not cats but, hey, nobody's perfect."},
 
@@ -86,6 +86,9 @@ function App() {
             <Header/>
             <main>
                 <Switch>
+                    <Route path="/" exact>
+                        <Redirect to="/game" />
+                    </Route>
                     <Route path="/game">
                         <Game
                             choiceHandler={choiceHandler}
