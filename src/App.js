@@ -19,7 +19,7 @@ const cardImages = [
     {src: "/img/fluffy.jpg", matched: false, name: "Lola", detail: "Though clothed in raw hairy power, she lives in " +
             "perpetual fear - fear that urges her to act before it's too late. Holding her is like holding a grenade without the safety clip. The other members fear and love her."},
     {src: "/img/greyPrince.jpg", matched: false, name: "Cosmo", detail: "The secret member of the cat council. " +
-            "Almost supernatural ability to read his surroundings. As she listens to the streets, she cannot be bothered to listen to you. She waits for the 'event'." +
+            "Almost supernatural ability to read her surroundings. As she listens to the streets, she cannot be bothered to listen to you. She waits for the 'event'." +
             " What is the 'event'? The event no cat has dared to suspect would ever come to pass."},
     {src: "/img/notCat.jpg", matched: false, name: "Tookie and Tookie II", detail: "A slight tendency towards drama urges them to treat Manley Court as a stage." +
             " Technically not cats but, hey, nobody's perfect."},
