@@ -17,4 +17,4 @@
 ## Link
 https://manley-cats.netlify.app/
 
-[^1]: Followed this tutorial but added a few features: https://www.youtube.com/watch?v=ZCKohZwGZMw
+[^1]: Followed this tutorial but added a few features of my own: https://www.youtube.com/watch?v=ZCKohZwGZMw
